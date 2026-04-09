@@ -42,12 +42,7 @@
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-             display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap; /* penting biar turun di HP */
-  padding: 10px 15px;
-}
+        }
 
         }
 
@@ -70,7 +65,13 @@
             opacity: 0;
         }
 
-        .navbar { padding: 15px 25px; background: white !important; }
+        .navbar { padding: 15px 25px; background: white !important;  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* penting biar turun di HP */
+  padding: 10px 15px;
+}
+ }
         .navbar-brand { color: var(--primary-green) !important; font-weight: 700; font-size: 26px; }
         .btn-donate { background-color: #5cb874; color: white; border-radius: 4px; padding: 8px 20px; font-weight: 600; text-decoration: none; }
 
