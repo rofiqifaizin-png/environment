@@ -618,6 +618,32 @@
     #footer-bottom a:hover { color: var(--green); }
     .footer-social a { color: #666; font-size: 1rem; margin-left: 10px; transition: color .2s; }
     .footer-social a:hover { color: var(--green); }
+        /* Media Query untuk HP */
+@media (max-width: 991.98px) {
+    #mainHeader {
+        width: 100%; /* Full width di HP agar tidak melayang terlalu kecil */
+        top: 0;
+        border-radius: 0;
+    }
+    
+    .navbar-collapse {
+        background: white;
+        padding: 20px;
+        border-top: 1px solid #eee;
+    }
+
+    .topbar {
+        display: none !important; /* Sembunyikan topbar di HP agar hemat ruang */
+    }
+    
+    .hero-slider .carousel-item {
+        height: 70vh; /* Perkecil tinggi slider di HP */
+    }
+    
+    .carousel-caption h1 {
+        font-size: 2rem; /* Kecilkan ukuran font judul di HP */
+    }
+}
     </style>
 </head>
 <body>
